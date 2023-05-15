@@ -1,0 +1,18 @@
+section {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    /* margin: 7% auto 50px auto;  */
+    margin: 2% auto;
+    flex-wrap: wrap;
+  }
+  
+  .square-container {
+     flex: 0 0 30%;
+     width: 50%;
+     height: 38%;
+  }
+  
+  

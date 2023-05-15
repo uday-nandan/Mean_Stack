@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Todo App</title>
+   <link href="C:\Users\hp\OneDrive\Desktop\task.css"rel="stylesheet" name""> 
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">My Todo</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>ToDo's</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Playing</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label>sleeping</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>sleeping</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="task.js"></script>
+
+  </body>
+</html>
